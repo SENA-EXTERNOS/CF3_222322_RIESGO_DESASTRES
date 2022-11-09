@@ -2,14 +2,207 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 15%
+    right: 15%
+    width: 35%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 12%
+    right: 50%
+    width: 25%
+  &-3
+    animation: float1 3s ease-in-out infinite alternate
+    position: absolute
+    top: 35%
+    right: 46%
+    width: 18%
+  &-4
+    animation: float1 3s ease-in-out infinite alternate
+    position: absolute
+    top: 35%
+    right: 58%
+    width: 10%   
 
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/fondo-banner-principalt.png") !important
+.index-dos
+  position: relative
+  z-index: 2
+
+// introduccion
+.titulo-principal__numero
+  i 
+    color: #FFFFFF
+.intro-decorativa-01
+  position: absolute
+  top: 0%
+  right: 0%
+  width: 50% 
+  z-index: 1  
+
+//tema 1
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: $white
+
+.background-tema1
+  width: 100% 
+  background-image: url("../assets/curso/temas/tema1/tema1-img-01.svg") !important
+  background-size: cover
+  background-position: left top
+  background-repeat: no-repeat
+  border-radius: 30px !important  
+  height: 100%
+
+.tema-1.txt1
+  p
+    color: $white    
+
+.slyderB_bg_01
+  position: relative
+  width: 100% 
+  background-image: url("../assets/curso/temas/tema1/tema1-img-02.png") 
+  background-size: cover
+  background-position: left top
+  background-repeat: no-repeat
+  border-radius: 15px
+
+  .slyder-a__tipo-b .slyder-a__btn--atrs
+    background-color: #F4F4F5
+
+  .slyder-a__tipo-b .slyder-a__btn--sigt
+    background-color: #F4F4F5
+
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs  
+    color: #FAE5B5
+    border: none
+
+  .slyder-a__bullets__item--active
+    background-color: #F1B62B !important
+    border: none
+
+  .slyder-a__bullets__item
+    background-color: #FAE5B5 
+
+  .slyder-a__tipo-b
+    justify-content: space-between
+    top: 10px   
+
+.bloque-img-tema1 
+  left: 50%
+  @media (max-width: 500px)  
+    left: 0
+
+.bloque-texto-tema1
+  right: 360px
+  @media (max-width: 500px)  
+    right: 0
+
+.color--secundario 
+  background-color: #C5D8D6   
+  height: 440px
+  @media (max-width:500px)   
+    height: 250px
+
+.color-hover
+  .slyder__btn:hover 
+    background-color: #F1B62B
+  .slyder__btn 
+    background-color: #E6DDC8
+
+.clr-paleGray
+  background-color: #E8E8E8
+
+.background-img-tema1-2
+  width: 100% 
+  background-image: url("../assets/curso/temas/tema1/tema1-img-15.svg") !important
+  background-size: cover
+  background-position: left top
+  background-repeat: no-repeat
+  height: 100%
+
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #7F4FC7
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #C5E5FE
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--1
+  &::before 
+    background-color: #C7C8CF !important
+
+.crd--2    
+  &::before 
+    background-color: #A0A4B4 !important  
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none 
+
+.background-img-tema1-3
+  width: 100% 
+  background-image: url("../assets/curso/temas/tema1/tema1-img-22.svg") !important
+  background-size: cover
+  background-position: left top
+  background-repeat: no-repeat
+  height: 100%   
+
+.clr-paleYellow
+  background-color: #FFF8D9   
+
+.tam-vertical
+  .tabs-a__content-item   
+    padding-left: 7.5rem!important
+  .tabs-a__tab 
+    width: 185%
+
+.crd--avatarHorizontal1
+  position: relative
+  padding-right: 5rem
+  & > *
+    position: relative
+  h5 
+    color: $white
+  p 
+    margin-bottom: 0
+    color: $white
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #222B5A
+    border-radius: 15px !important 
 
 @keyframes float1
   0%
