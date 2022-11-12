@@ -10,6 +10,7 @@
     .bloque-texto-g.color-secundario.background-tema3.p-3.p-sm-4.p-md-5(data-aos="fade-up")
       .row.align-items-center
         .col-lg-5
+          figure
             img(src="@/assets/curso/temas/tema3/tema3-img-01-1.svg").img-tema3-1
         .col-lg-7  
           .tema-3.txt1
@@ -29,28 +30,28 @@
     .slyderB_bg_04.px-5.py-4.mb-5
       SlyderA(tipo="b")
         .row.justify-content-center.my-lg-4
-          .col-6.col-lg-5
+          .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema3/tema3-img-05.svg')        
           .col-lg-6.mb-1.mb-lg-0
             .number(data-number="01")
               p.ps-4.mb-0 Estas manifestaciones al tener contacto con alguna condición propicia de vulnerabilidad en las comunidades, los bienes e inmuebles, los medios de subsistencia, la prestación de servicios o los recursos naturales, genera daños o pérdidas de carácter material, económico, ambiental hasta de vidas humanas, produciendo alteraciones graves en las condiciones normales de funcionamiento de las comunidades y el desarrollo sostenible del territorio. Por ello, el Estado y el Sistema nacional de gestión del riesgo de desastres, ejecutan acciones de respuesta a la emergencia, rehabilitación y reconstrucción.
         .row.justify-content-center.my-lg-4
-          .col-6.col-lg-5
+          .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema3/tema3-img-06.svg')        
           .col-lg-6.mb-1.mb-lg-0
             .number(data-number="02")
               p.texto-slyder2.ps-4.mb-0 Es necesario aclarar e interiorizar que las situaciones de emergencia no siempre dan como resultado la manifestación de un desastre, pero la manifestación de un desastre siempre es resultado de una situación de emergencia. 
         .row.justify-content-center.my-lg-4
-          .col-6.col-lg-5
+          .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema3/tema3-img-07.svg')        
           .col-lg-6.mb-1.mb-lg-0
             .number(data-number="03")
               p.texto-slyder2.ps-4.mb-0 En términos de preparación para la respuesta a emergencias, se debe contar con la intervención institucional y del sector privado y comunitario. Esta preparación debe fundamentarse en el correcto entendimiento de los procesos de gestión del riesgo y la ejecución y seguimiento de los instrumentos de planificación.
         .row.justify-content-center.my-lg-4
-          .col-6.col-lg-5
+          .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema3/tema3-img-08.svg')        
           .col-lg-6.mb-1.mb-lg-0
@@ -70,7 +71,7 @@
     .clr-img-slyder3.mb-5
       .row.justify-content-around.align-items-center
         .col-12
-          SlyderB.mb-5.mt-5.color-hover(:datos="datosSlyder")   
+          SlyderB.mb-5.mt-5.margin-l-r.color-hover(:datos="datosSlyder")   
 
     .row.justify-content-around.aling-items-center.mt-5.mb-5
       .col-11
@@ -120,10 +121,10 @@
       p.mt-3 Fuente: (Unidad nacional de gestión de riesgo de desastres. (s.f)). 
 
     .background-tema3-2   
-      .row
-        .col-lg-12          
-          p.mt-4.mb-3 Las autoridades departamentales, distritales y municipales son las responsables de formular y concertar con sus respectivos consejos de gestión del riesgo la ERE de su respectiva jurisdicción en armonía con la estrategia de respuesta nacional. Dentro de los servicios de respuesta se encuentra.
-      .row.justify-content-around.aling-items-center.mt-3.mb-2
+      .row.justify-content-around.aling-items-center.mt-5  
+        .col-lg-11
+          p.mt-4.mb-1 Las autoridades departamentales, distritales y municipales son las responsables de formular y concertar con sus respectivos consejos de gestión del riesgo la ERE de su respectiva jurisdicción en armonía con la estrategia de respuesta nacional. Dentro de los servicios de respuesta se encuentra.
+      .row.justify-content-around.aling-items-center.mt-2.mb-2
         .col-11
           .row.justify-content-around.aling-items-center.mt-5.mb-1
             .col-lg-6

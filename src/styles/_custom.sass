@@ -87,7 +87,7 @@
 
   .slyder-a__tipo-b
     justify-content: space-between
-    top: 10px   
+    top: 10px      
 
 .bloque-img-tema1 
   left: 50%
@@ -152,9 +152,10 @@
   &::before 
     background-color: #A0A4B4 !important
 
-.crd--avatarHorizontal p 
+.tam-row
+  width: 70%
   @media (max-width: 500px)
-    margin-left: 5rem 
+    width: 100%   
 
 .crd--first
   &::before 
@@ -189,6 +190,12 @@
     width: 185%
     @media (max-width: 500px)
       width: 110% 
+
+.tam-activa
+  @media (max-width: 500px)
+    width: 167%
+    position: relative
+    right: 118px
 
 
 .crd--avatarHorizontal1
@@ -307,7 +314,7 @@
 .bloque-texto-tema4
   right: -25px
   top: -20px
-  height: 184px
+  height: 195px
   background-color: #fff
   width: 80%
   p
@@ -315,13 +322,13 @@
     font-size: small
   @media (max-width: 500px)  
     right: 0
-    top: 11px 
-    height: 759px
-    left: 174px
+    top: 27px
+    height: 722px
+    left: 147px    
 
 .bloque-texto-tema4-1
-  right: 455px
-  top: 150px
+  right: 431px
+  top: 156px
   width: 79%
   background-color: #ffffff00
   p
@@ -329,7 +336,7 @@
     font-size: small
   @media (max-width: 500px)  
     right: 170px
-    top: 11px 
+    top: 33px 
 
 
 .tam-tarjeta-color    
@@ -337,14 +344,10 @@
   @media (max-width:500px) 
     height: 990px    
 
-.bloque-texto-g__img1 
-    width: 50%
-    position: absolute
-    top: 0
-    left: 50%
-    bottom: 0
-    background-position: center
-    background-size: cover   
+.bloque-img-tema1-2 
+  left: 50%
+  @media (max-width: 500px)  
+    left: 0      
 
 .clr-img-tarjetas1      
   width: 100% 
@@ -397,7 +400,8 @@
   @media (max-width:500px)     
     top: 31%
     width: 40%
-    right: 3%   
+    right: -37%
+    position: relative
 
 .tema1-decorativa-04
   position: absolute
@@ -405,19 +409,20 @@
   right: 0%
   width: 23%
   @media (max-width:500px)     
-    top: 36.5%
+    top: 35.5%
     width: 70%
     right: 0%         
 
 .tema1-decorativa-05
   position: absolute
-  top: 72.2%
-  right: 74.9%
+  top: 72.6%
+  right: 74.38%
   width: 23%
   @media (max-width:500px)     
     top: 74.2%
-    width: 30%
-    right: 14%          
+    width: 63%
+    right: 0%
+    position: relative        
 
 .tema1-decorativa-06
   position: absolute
@@ -425,10 +430,14 @@
   right: 0%
   width: 40%
   @media (max-width:500px)     
-    top: 74.8%
+    top: 73%
     width: 40%
     right: 0%        
 
+.margin-l-r
+  @media (max-width:500px) 
+    margin-left: 1.5rem!important
+    margin-right: 1.5rem!important
 //tema2
 .slyderB_bg_03
   position: relative
@@ -438,9 +447,15 @@
   background-repeat: no-repeat
   border-radius: 15px
 
-  .texto-slyder1
+  .texto-slyder2-1
     color: $white
     margin-top: 4.5rem!important
+
+  .texto-slyder2-2
+    color: $white
+    margin-top: 4.5rem!important  
+    @media (max-width:500px) 
+      margin-top: 3rem!important     
 
   .slyder-a__tipo-b .slyder-a__btn--atrs
     background-color: #F4F4F5
@@ -528,11 +543,11 @@
 
 .tema2-decorativa-01
   position: absolute
-  top: 43%
+  top: 44.5%
   right: 37%
   width: 25%
   @media (max-width:500px)     
-    top: 44.7%
+    top: 48.7%
     width: 21%
     right: 39%    
 
@@ -577,7 +592,7 @@
 .slyderB_bg_04
   position: relative
   background-image: url("../assets/curso/temas/tema3/tema3-img-04.svg") 
-  background-size: 100% 100%
+  background-size: cover
   background-position: left top
   background-repeat: no-repeat
   border-radius: 15px  

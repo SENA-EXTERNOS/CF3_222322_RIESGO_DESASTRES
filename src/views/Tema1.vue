@@ -10,6 +10,7 @@
     .bloque-texto-g.color-secundario.background-tema1.p-3.p-sm-4.p-md-5(data-aos="fade-up")
       .row.align-items-center
         .col-lg-5
+          figure
             img(src="@/assets/curso/temas/tema1/tema1-img-01-1.svg")
         .col-lg-7  
           .tema-1-txt1
@@ -21,10 +22,10 @@
     .slyderB_bg_01.px-5.py-4.mb-5
       SlyderA(tipo="b")
         .row.justify-content-center.my-lg-4
-          .col-lg-7.mb-1.mb-lg-0
+          .col-lg-6.mb-1.mb-lg-0
             .number(data-number="01")
-              p.ps-4.mb-3 Como consecuencia de esta materialización del riesgo, durante el periodo pasado se renueva y armoniza la Política nacional, de acuerdo a parámetros consagrados en la Constitución 1991 como:
-              ul.ps-4
+              p.ps-1.mb-3 Como consecuencia de esta materialización del riesgo, durante el periodo pasado se renueva y armoniza la Política nacional, de acuerdo a parámetros consagrados en la Constitución 1991 como:
+              ul.ps-1
                 li
                   i.fas.fa-circle.fa-xs
                   |  Descentralización.
@@ -37,21 +38,21 @@
                 li
                   i.fas.fa-circle.fa-xs
                   |  Complementariedad institucional.                
-          .col-6.col-lg-5
+          .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema1/tema1-img-03.svg')
         .row.justify-content-center.my-lg-4
-          .col-lg-7.mb-1.mb-lg-0
+          .col-lg-6.mb-1.mb-lg-0
             .number(data-number="02")
-              p.ps-4.mb-0 La gestión del riesgo es un proceso de construcción social anudado a procesos naturales, es decir, el crecimiento poblacional desmedido, desordenado y vulnerable combinado con el avanzado deterioro ambiental, crea y potencia condiciones de riesgo, que dan como resultado la ampliación de los daños y pérdidas en elementos expuestos de diferentes partes del país, como también genera que la población se asiente en zonas de riesgo.
-          .col-6.col-lg-5
+              p.ps-1.mb-0 La gestión del riesgo es un proceso de construcción social anudado a procesos naturales, es decir, el crecimiento poblacional desmedido, desordenado y vulnerable combinado con el avanzado deterioro ambiental, crea y potencia condiciones de riesgo, que dan como resultado la ampliación de los daños y pérdidas en elementos expuestos de diferentes partes del país, como también genera que la población se asiente en zonas de riesgo.
+          .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema1/tema1-img-04.svg')
         .row.justify-content-center.my-lg-4
-          .col-lg-7.mb-1.mb-lg-0
+          .col-lg-6.mb-1.mb-lg-0
             .number(data-number="03")
-              p.ps-4.mb-0 Al ser un constructo social, se fundamenta en problemáticas como: pobreza, desigualdad, desempleo, violencia, desplazamiento, entre otros; las cuales ocasionan una planificación territorial desordenada, que exacerba las condiciones de riesgo, aumentando la probabilidad de la materialización de consecuencias debido a un evento peligroso. 
-          .col-6.col-lg-5
+              p.ps-1.mb-0 Al ser un constructo social, se fundamenta en problemáticas como: pobreza, desigualdad, desempleo, violencia, desplazamiento, entre otros; las cuales ocasionan una planificación territorial desordenada, que exacerba las condiciones de riesgo, aumentando la probabilidad de la materialización de consecuencias debido a un evento peligroso. 
+          .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema1/tema1-img-05.svg')
 
@@ -69,13 +70,14 @@
       .col-12
         img(src="@/assets/curso/temas/tema1/tema1-img-07.svg")  
 
-    p.mt-5.mb-0 Para comprender la gestión del riesgo de desastres, es necesario entender los siguientes conceptos básicos:
-    p.mt-0 #[i Fuente: Unidad nacional para la gestión del riesgo de desastres (2015).]
 
     img(src="@/assets/curso/temas/tema1/tema1-img-decorativa-01.svg").tema1-decorativa-01
     img(src="@/assets/curso/temas/tema1/tema1-img-decorativa-02.svg").tema1-decorativa-02
 
-    SlyderF(columnas="col-lg-6 col-xl-4")
+    p.mt-5.mb-0 Para comprender la gestión del riesgo de desastres, es necesario entender los siguientes conceptos básicos:
+    p #[i Fuente: Unidad nacional para la gestión del riesgo de desastres (2015).]
+
+    SlyderF(columnas="col-lg-6 col-xl-4").index-dos
       .tarjeta.color--secundario.p-4
         .row.justify-content-center.mb-3
           .col-8
@@ -111,12 +113,12 @@
         .col-11
           SlyderB.mb-5.mt-5.color-hover(:datos="datosSlyder")    
     
-    img(src="@/assets/curso/temas/tema1/tema1-img-decorativa-03.svg").tema1-decorativa-03
+    
 
     .clr.background-img-tema1-2.p-4.mt-4.mb-5
       p.mt-3.mb-4 Si no se crean medidas que promuevan la reducción del riesgo, se pueden producir impactos en la reducción del riesgo. Fuente: Unidad nacional para la gestión del riesgo de desastres, (2015).
-      .row
-        .col-8
+      .row.tam-row
+        .col-12
           .crd.crd--avatarHorizontal.crd--1.py-4
             .row.align-items-center
               .col-auto
@@ -159,6 +161,8 @@
                   img(src="@/assets/curso/temas/tema1/tema1-img-21.svg", alt="alt").img100
               .col
                 p #[b La capacidad productiva del territorio.]
+      
+      img(src="@/assets/curso/temas/tema1/tema1-img-decorativa-03.svg").tema1-decorativa-03
     
     separador
     #t_1_1.titulo-segundo.color-acento-contenido.mt-4
@@ -174,7 +178,7 @@
           img(src="@/assets/curso/temas/tema1/tema1-img-23.svg", alt="alt", style="width:450px;").m-auto
       .col-lg-8.order-1.order-lg-2
         TabsA.color-acento-botones.tam-vertical.mb-5        
-          .tarjeta.clr-paleYellow.p-4(titulo="Enfoque retrospectivo.")
+          .tarjeta.clr-paleYellow.tam-activa.p-4(titulo="Enfoque retrospectivo.")
             h4 Enfoque retrospectivo.
             p El enfoque retrospectivo se encarga de proporcionar un análisis de riesgo en función de eventos históricos, pero al ser esta información poca o nula, no aporta suficiente para la correcta cuantificación y gestión del riesgo. Debido a esto, el enfoque prospectivo proporciona una base sólida para la evaluación del riesgo, ya que diseña modelos probabilísticos y tiene en cuenta la información existente de eventos pasados sin depender directamente de esta. 
           .tarjeta.clr-paleYellow.p-4(titulo="Enfoque prospectivo.")
@@ -239,15 +243,15 @@
         .row.justify-content-center.my-lg-4
           .col-lg-6.mb-1.mb-lg-0
             .number(data-number="01")
-              p.texto-slyder.ps-4.mb-3 A partir de la mirada del desarrollo, es posible ejecutar la evaluación del riesgo, ya que permite la identificación de componentes latentes del mismo, como los elementos expuestos y las consecuencias que pesan sobre estos, es decir los daños potenciales, catalogados como riesgo estructural o físico, que de no realizarse una adecuada gestión, se convierte en amplificador del mismo, porque a pesar de no depender directamente de la amenaza, posiblemente llegan a incidir negativamente en las condiciones existentes, al no  contar con capacidad de respuesta, recuperación y rehabilitación adecuada.                
-          .col-6.col-lg-5
+              p.texto-slyder.ps-1.mb-1 A partir de la mirada del desarrollo, es posible ejecutar la evaluación del riesgo, ya que permite la identificación de componentes latentes del mismo, como los elementos expuestos y las consecuencias que pesan sobre estos, es decir los daños potenciales, catalogados como riesgo estructural o físico, que de no realizarse una adecuada gestión, se convierte en amplificador del mismo, porque a pesar de no depender directamente de la amenaza, posiblemente llegan a incidir negativamente en las condiciones existentes, al no  contar con capacidad de respuesta, recuperación y rehabilitación adecuada.                
+          .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema1/tema1-img-29.svg')
         .row.justify-content-center.my-lg-4
           .col-lg-6.mb-1.mb-lg-0
             .number(data-number="02")
-              p.texto-slyder.ps-4.mb-0 A nivel global y nacional, se cuenta con la implementación de estos modelos probabilísticos en diversas ciudades, obteniendo como fruto, la construcción del indicador (RI), , el cual evalúa, compara y comunica el riesgo de manera eficiente, permitiendo la promoción de medidas eficaces en las diferentes dimensiones de la vulnerabilidad. Con este tipo de herramientas es posible entender y comunicar de manera simple un sistema complejo.
-          .col-6.col-lg-6
+              p.texto-slyder.ps-1.mb-1 A nivel global y nacional, se cuenta con la implementación de estos modelos probabilísticos en diversas ciudades, obteniendo como fruto, la construcción del indicador (RI), , el cual evalúa, compara y comunica el riesgo de manera eficiente, permitiendo la promoción de medidas eficaces en las diferentes dimensiones de la vulnerabilidad. Con este tipo de herramientas es posible entender y comunicar de manera simple un sistema complejo.
+          .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema1/tema1-img-30.svg')
     .clr.background-img-tema1-2.p-4.mt-4.mb-5
@@ -265,14 +269,15 @@
         .col-11
           SlyderB.mb-5.mt-5.color-hover(:datos="datosSlyder2")
 
+    
     .row.justify-content-around.align-items-center.mt-5.mb-5
+      img(src="@/assets/curso/temas/tema1/tema1-img-decorativa-05.svg").tema1-decorativa-05.index-dos
       .col-lg-7
         .cajon.color-acento_contenido.p-4
           p Intervenir el riesgo, es el tratamiento mediante el cual se modifica de manera intencional las características de un fenómeno, con el fin de reducir la amenaza que representa o modificar las características de un elemento expuesto, lo anterior con el propósito de reducir su vulnerabilidad que se pueda presentar en el territorio específico. 
 
     p.mb-4.mt-4 La reducción del riesgo se logra con acciones que lo mitigan o lo previenen. Estas medidas se adoptan para reducir la amenaza, la exposición y disminuir la vulnerabilidad de las personas, los medios de subsistencia, los bienes, la infraestructura y los recursos ambientales; para evitar o minimizar los daños y las pérdidas, en caso de producirse los eventos físicos peligrosos. La reducción del riesgo la componen (Unidad nacional para la gestión del riesgo de desastres, 2013): 
     
-    img(src="@/assets/curso/temas/tema1/tema1-img-decorativa-05.svg").tema1-decorativa-05
     img(src="@/assets/curso/temas/tema1/tema1-img-decorativa-06.svg").tema1-decorativa-06
 
     .row.justify-content-around.align-items-center
@@ -302,7 +307,7 @@
                     figure
                       img(src="@/assets/curso/temas/tema1/tema1-img-38.svg", alt="alt").img100(data-aos="fade-down-left")
                   .col
-                    p.margin-8-5.mb-0 #[b La intervención prospectiva de un posible riesgo.]
+                    p.mb-0 #[b La intervención prospectiva de un posible riesgo.]
             .row.align-items-center                
               .crd.crd--avatarHorizontal2.crd--3.py-4
                 .row.align-items-center
@@ -325,9 +330,9 @@
          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.justify-content-around.aling-items-center.mt-5.mb-5
-      .col-12
+      .col-11
         .bloque-texto-g.color-primario.tam-tarjeta-color.p-3.p-sm-1.p-md-5    
-          .bloque-texto-g__img1(
+          .bloque-texto-g__img.bloque-img-tema1-2(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-img-42.svg')})`}"
           )
           .bloque-texto-g__texto.bloque-texto-tema4.p-4
@@ -369,16 +374,16 @@
 
     TabsC.color-acento-botones.tabs-c-1.mt-5
       .py-3.py-md-4(titulo="Generación de insumos para promover la reducción del riesgo.")
-        .row.justify-content-center
+        .row.justify-content-center.margin-l-r
           .col-lg-5.order-2.order-lg-1
             figure
               img(src='@/assets/curso/temas/tema1/tema1-img-48.svg', alt='').img400.m-auto
           .col-lg-7.order-1.order-lg-2.mb-4.mb-lg-0
-            p.mb-2.mt-4 Elaboración de instrumentos de planificación que permitan, a nivel nacional, regional y local, la incorporación de los procesos de gestión del riesgo, instrumentos que tienen impactos en los sectores público, privado y comunitario.
-            p Otro de los insumos fundamentales para la gestión del riesgo, es la contemplación de la inclusividad, es decir, la incorporación de la participación de los actores comunitarios en los procesos de la gestión, como reubicación y reasentamiento. 
+            p.margin-l-r.mb-2.mt-4 Elaboración de instrumentos de planificación que permitan, a nivel nacional, regional y local, la incorporación de los procesos de gestión del riesgo, instrumentos que tienen impactos en los sectores público, privado y comunitario.
+            p.margin-l-r Otro de los insumos fundamentales para la gestión del riesgo, es la contemplación de la inclusividad, es decir, la incorporación de la participación de los actores comunitarios en los procesos de la gestión, como reubicación y reasentamiento. 
 
       .py-3.py-md-4(titulo="Promoción de la intervención correctiva y prospectiva del riesgo a nivel nacional y territorial.")
-        .row.justify-content-center
+        .row.justify-content-center.margin-l-r
           .col-lg-5.order-2.order-lg-1
             figure
               img(src='@/assets/curso/temas/tema1/tema1-img-49.svg', alt='').img400.m-auto
