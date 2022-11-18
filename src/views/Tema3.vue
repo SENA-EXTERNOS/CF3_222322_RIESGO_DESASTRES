@@ -70,7 +70,7 @@
 
     .clr-img-slyder3.mb-5
       .row.justify-content-around.align-items-center
-        .col-12
+        .col-11
           SlyderB.mb-5.mt-5.margin-l-r.color-hover(:datos="datosSlyder")   
 
     .row.justify-content-around.aling-items-center.mt-5.mb-5
@@ -238,7 +238,7 @@
           .col-md-6.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/tema3/tema3-img-43.svg', alt='Texto que describa la imagen')            
-      .py-4.py-md-5(titulo="Tercera actividad.")
+      .py-4.py-md-5(titulo="Tercera actividad")
         .row
           .col-md-6
             p Tener el plan de gestión del riesgo de desastres formulado y adoptado por decreto.
@@ -253,13 +253,13 @@
             figure
               img(src='@/assets/curso/temas/tema3/tema3-img-45.svg', alt='Texto que describa la imagen')
 
-    .background-tema3-4   
+    .background-tema3-4.p-4.mt-4.mb-5    
       .row
-        .col-lg-12          
-          p.mt-4.mb-3 Luego de desarrolladas estas actividades, se deben seguir los siguientes 10 pasos para la formulación y diseño de la ERE:
-      .row.justify-content-around.aling-items-center.mt-3.mb-2
+        .col-lg-11        
+          p.mt-4 Luego de desarrolladas estas actividades, se deben seguir los siguientes 10 pasos para la formulación y diseño de la ERE:
+      .row.justify-content-around.aling-items-center
         .col-11
-          .row.justify-content-around.aling-items-center.mt-5.mb-1
+          .row.justify-content-around.aling-items-center.mt-3
             .col-lg-7.mt-5
               ol.lista-ol--separador
                 li
@@ -286,7 +286,7 @@
                 li                                           
             .col-lg-5
               img(src="@/assets/curso/temas/tema3/tema3-img-47.svg")
-      .row.justify-content-around.aling-items-center.mt-2.mb-1
+      .row.justify-content-around.aling-items-center
         .col-11
           .row.justify-content-around.aling-items-center.mt-5.mb-5
             .col-lg-5

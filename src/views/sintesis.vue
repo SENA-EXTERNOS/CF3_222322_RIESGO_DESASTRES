@@ -2,15 +2,8 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-sexto.color-acento-contenido.mb-5
-      .row.mb-2
-        h5 Gestión comunitaria del riesgo de desastres.
-      .row
-        span Síntesis:  Diagnóstico para la gestión del riesgo de desastres.
-    
-    img(src="@/assets/curso/temas/sintesis-img-01.svg", alt="alt").imagen-sintesis-1
 
-    p.mb-5.mt-4 A continuación, se presenta un mapa mental en donde podrá encontrar los contenidos trabajados en el componente formativo de manera gráfica. 
+    p.mb-5.mt-4 El siguiente esquema, ilustra algunos de los aspectos centrales desarrollados en el componente formativo “Riesgos de desastres”
 
     .row.justify-content-center.mt-4
       .col-lg-10.mb-5
