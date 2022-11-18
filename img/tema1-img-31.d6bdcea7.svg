@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1055.344" height="601.1" viewBox="0 0 1055.344 601.1">
+  <defs>
+    <filter id="Elipse_5575" x="57.228" y="235.491" width="154.68" height="154.681" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.993" y1="0.993" x2="-0.065" y2="-0.065" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ee4e5d"/>
+      <stop offset="0.117" stop-color="#ee4e5d"/>
+      <stop offset="0.293" stop-color="#f1b62b"/>
+      <stop offset="0.64" stop-color="#179587"/>
+      <stop offset="0.858" stop-color="#222b5a"/>
+      <stop offset="1" stop-color="#222b5a"/>
+    </linearGradient>
+    <filter id="Elipse_5575-2" x="328.071" y="235.574" width="154.68" height="154.681" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_301913" x="674.196" y="346.718" width="282.15" height="112.822" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_301909" x="74.151" y="448.127" width="379.056" height="152.973" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+    </filter>
+    <filter id="Rectángulo_301909-2" x="74.151" y="448.127" width="379.056" height="152.973" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-5"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_1000270" data-name="Grupo 1000270" transform="translate(-278 -12205.677)">
+    <g id="Grupo_1000269" data-name="Grupo 1000269">
+      <g id="Grupo_1000268" data-name="Grupo 1000268">
+        <g id="Grupo_898965" data-name="Grupo 898965" transform="translate(279 12201.677)">
+          <g id="Grupo_898956" data-name="Grupo 898956" transform="translate(28.742 99.075)">
+            <g id="Rectángulo_301908" data-name="Rectángulo 301908" transform="translate(-4)" fill="#fff" stroke="#179587" stroke-width="4">
+              <rect width="508.703" height="312.469" rx="16" stroke="none"/>
+              <rect x="2" y="2" width="504.703" height="308.469" rx="14" fill="none"/>
+            </g>
+            <text id="Exposición" transform="translate(164.073 14.68)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="23.811" y="17">Exposición</tspan></text>
+            <g id="Grupo_898952" data-name="Grupo 898952" transform="translate(6.916 57.248)">
+              <path id="Trazado_648694" data-name="Trazado 648694" d="M85.779,0A85.779,85.779,0,1,1,0,85.779,85.779,85.779,0,0,1,85.779,0Z" transform="translate(9.458 71.309)" fill="#ee4e5d"/>
+              <g id="Grupo_897598" data-name="Grupo 897598" transform="translate(22.069 84.668)">
+                <g transform="matrix(1, 0, 0, 1, -58.73, -236.99)" filter="url(#Elipse_5575)">
+                  <circle id="Elipse_5575-3" data-name="Elipse 5575" cx="72.84" cy="72.84" r="72.84" transform="translate(58.73 236.99)" fill="#fff"/>
+                </g>
+              </g>
+              <text id="Susceptibilidad_al_daño_de_los_elementos_expuestos" data-name="Susceptibilidad al daño de los elementos expuestos" transform="translate(33.864 113.386)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="6.608" y="17">Susceptibilidad </tspan><tspan x="11.592" y="41">al daño de los </tspan><tspan x="23.741" y="65">elementos </tspan><tspan x="24.358" y="89">expuestos</tspan></text>
+              <text id="Vulnerabilidad_física_Dependiente_de_la_amenaza_" data-name="Vulnerabilidad física
+(Dependiente de la amenaza)" transform="translate(0)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="23.056" y="17">Vulnerabilidad física</tspan></text>
+            </g>
+            <g id="Grupo_898953" data-name="Grupo 898953" transform="translate(261.996 48.248)">
+              <g id="Grupo_898955" data-name="Grupo 898955" transform="translate(25.222 80.392)">
+                <circle id="Elipse_5625" data-name="Elipse 5625" cx="85.779" cy="85.779" r="85.779" fill="url(#linear-gradient)"/>
+                <g transform="matrix(1, 0, 0, 1, -316.96, -223.72)" filter="url(#Elipse_5575-2)">
+                  <circle id="Elipse_5575-4" data-name="Elipse 5575" cx="72.84" cy="72.84" r="72.84" transform="translate(329.57 237.07)" fill="#fff"/>
+                </g>
+                <text id="Factores_de_agravamiento" data-name="Factores de agravamiento" transform="translate(23.646 61.785)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="20.819" y="17">Factores de </tspan><tspan x="13.991" y="41">agravamiento</tspan></text>
+              </g>
+              <text id="Fragilidad_social_falta_de_resiliencia_No_dependiente_de_la_amenaza_" data-name="Fragilidad social &amp; falta de resiliencia
+(No dependiente de la amenaza)
+" transform="translate(-41 0)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="8.22" y="17">Fragilidad social &amp; falta de resiliencia</tspan><tspan x="24.65" y="41">(No dependiente de la amenaza)</tspan><tspan x="139.927" y="65"></tspan></text>
+            </g>
+          </g>
+          <text id="Amenazas_Eventos_potenciales_" data-name="Amenazas
+(Eventos potenciales)
+" transform="translate(122.977 4)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="102.029" y="19">Amenazas</tspan><tspan x="56.831" y="44">(Eventos potenciales)</tspan><tspan x="144.682" y="69"></tspan></text>
+          <text id="Riesgo_impacto_potencial_" data-name="Riesgo
+(impacto potencial)
+" transform="translate(633 243.502)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-28.085" y="19">Riesgo</tspan><tspan x="-78.93" y="44">(impacto potencial)</tspan><tspan x="0" y="69"></tspan></text>
+          <text id="Desastre_impacto_" data-name="Desastre
+(impacto)
+" transform="translate(893.344 243.502)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="44.047" y="19">Desastre</tspan></text>
+          <text id="_Evento_" data-name="(Evento)
+" transform="translate(755 272.568)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="43.081" y="17">(Evento)</tspan></text>
+          <text id="Materialización_de_la_amenaza" data-name="Materialización de la amenaza" transform="translate(761 215.949)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="1.313" y="17">Materialización de </tspan><tspan x="25.579" y="41">la amenaza</tspan></text>
+          <g id="Grupo_898958" data-name="Grupo 898958" transform="translate(672.296 357.718)">
+            <g transform="matrix(1, 0, 0, 1, -673.3, -353.72)" filter="url(#Rectángulo_301913)">
+              <rect id="Rectángulo_301913-2" data-name="Rectángulo 301913" width="262.15" height="92.822" rx="8" transform="translate(684.2 353.72)" fill="#fff" stroke="#179587" stroke-width="2"/>
+            </g>
+            <g id="Grupo_898957" data-name="Grupo 898957" transform="translate(0 9.552)">
+              <text id="Gestión_de_desastres_ex_post_" data-name="Gestión de desastres (ex post)" transform="translate(0 0)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="30.095" y="17">Gestión de desastres (ex post)</tspan></text>
+              <text id="Respuesta_y_recuperación_a_emergencias" data-name="Respuesta y recuperación a emergencias" transform="translate(34.517 26.379)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="15.386" y="17">Respuesta y recuperación a </tspan><tspan x="67.316" y="41">emergencias</tspan></text>
+            </g>
+          </g>
+          <g id="Grupo_898960" data-name="Grupo 898960" transform="translate(243.785 418.811)">
+            <path id="Unión_13" data-name="Unión 13" d="M4.955,30.884V14.118H0L9.083,0l9.083,14.118H13.212V30.884Z" fill="#afafaf"/>
+            <path id="Unión_16" data-name="Unión 16" d="M4.955,30.884V14.118H0L9.083,0l9.083,14.118H13.212V30.884Z" transform="translate(27.25)" fill="#afafaf"/>
+            <path id="Unión_17" data-name="Unión 17" d="M4.955,30.884V14.118H0L9.083,0l9.083,14.118H13.212V30.884Z" transform="translate(54.5)" fill="#afafaf"/>
+          </g>
+          <g id="Grupo_898961" data-name="Grupo 898961" transform="translate(243.784 63.658)">
+            <path id="Unión_13-2" data-name="Unión 13" d="M4.955,0V16.765H0L9.083,30.884l9.083-14.118H13.212V0Z" transform="translate(0 0)" fill="#f1b62b"/>
+            <path id="Unión_16-2" data-name="Unión 16" d="M4.955,0V16.765H0L9.083,30.884l9.083-14.118H13.212V0Z" transform="translate(27.25 0)" fill="#f1b62b"/>
+            <path id="Unión_17-2" data-name="Unión 17" d="M4.955,0V16.765H0L9.083,30.884l9.083-14.118H13.212V0Z" transform="translate(54.5 0)" fill="#f1b62b"/>
+          </g>
+          <path id="Unión_14" data-name="Unión 14" d="M3.964,27.25V12.457H0L7.266,0l7.266,12.457H10.57V27.25Z" transform="translate(560.25 250.768) rotate(90)" fill="#f1b62b"/>
+          <path id="Unión_15" data-name="Unión 15" d="M3.963,179.3V15.179H0L7.266,0l7.267,15.179H10.6V179.3Z" transform="translate(917.301 258.035) rotate(90)" fill="#f1b62b"/>
+          <g id="Grupo_898959" data-name="Grupo 898959" transform="translate(0 12.783)">
+            <g id="Grupo_897588" data-name="Grupo 897588" transform="translate(0 0)">
+              <path id="Trazado_183765" data-name="Trazado 183765" d="M0,26.017v155H500.5V0" transform="translate(181.019 7.265) rotate(90)" fill="none" stroke="#afafaf" stroke-width="2"/>
+              <g id="Polígono_26" data-name="Polígono 26" transform="translate(164.569) rotate(90)" fill="#afafaf">
+                <path d="M 12.77266502380371 11.23522186279297 L 1.756740570068359 11.23522186279297 L 7.264702796936035 1.958702683448792 L 12.77266502380371 11.23522186279297 Z" stroke="none"/>
+                <path d="M 7.264702796936035 3.917420387268066 L 3.51348876953125 10.23522186279297 L 11.01591682434082 10.23522186279297 L 7.264702796936035 3.917420387268066 M 7.264702796936035 1.9073486328125e-06 L 14.52940273284912 12.23522186279297 L 2.86102294921875e-06 12.23522186279297 L 7.264702796936035 1.9073486328125e-06 Z" stroke="none" fill="#afafaf"/>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_898963" data-name="Grupo 898963" transform="translate(441.207 297.093)">
+            <g id="Grupo_897588-2" data-name="Grupo 897588" transform="translate(0 0)">
+              <g id="Polígono_26-2" data-name="Polígono 26" transform="translate(0 235.261) rotate(-90)" fill="#afafaf">
+                <path d="M 12.77266311645508 11.2352352142334 L 1.756737470626831 11.2352352142334 L 7.264700412750244 1.958706736564636 L 12.77266311645508 11.2352352142334 Z" stroke="none"/>
+                <path d="M 7.264700412750244 3.917415618896484 L 3.513484954833984 10.23522472381592 L 11.0159158706665 10.23522472381592 L 7.264700412750244 3.917415618896484 M 7.264700412750244 -5.7220458984375e-06 L 14.52940082550049 12.23522472381592 L 0 12.23522472381592 L 7.264700412750244 -5.7220458984375e-06 Z" stroke="none" fill="#afafaf"/>
+              </g>
+              <path id="Trazado_183765-2" data-name="Trazado 183765" d="M0,0V173.7H228" transform="translate(9.567 227.997) rotate(-90)" fill="none" stroke="#afafaf" stroke-width="2"/>
+            </g>
+          </g>
+          <g id="Grupo_898964" data-name="Grupo 898964" transform="translate(669.463 294.368)">
+            <g id="Grupo_897588-3" data-name="Grupo 897588" transform="translate(0 0)">
+              <path id="Trazado_183765-3" data-name="Trazado 183765" d="M0-53.463V304.886H230.859" transform="translate(0 230.859) rotate(-90)" fill="none" stroke="#afafaf" stroke-width="2"/>
+            </g>
+          </g>
+          <g data-type="innerShadowGroup">
+            <g transform="matrix(1, 0, 0, 1, -1, 4)" filter="url(#Rectángulo_301909)">
+              <path id="Rectángulo_301909-3" data-name="Rectángulo 301909" d="M5.532,0h330.4a21.126,21.126,0,0,1,21.126,21.126V125.441a5.532,5.532,0,0,1-5.532,5.532H21.126A21.126,21.126,0,0,1,0,109.846V5.532A5.532,5.532,0,0,1,5.532,0Z" transform="translate(85.15 456.13)" fill="#fff" stroke="#f1b62b" stroke-width="4"/>
+            </g>
+            <path id="Rectángulo_301909-4" data-name="Rectángulo 301909" d="M5.532,0h330.4a21.126,21.126,0,0,1,21.126,21.126V125.441a5.532,5.532,0,0,1-5.532,5.532H21.126A21.126,21.126,0,0,1,0,109.846V5.532A5.532,5.532,0,0,1,5.532,0Z" transform="translate(84.151 460.127)" fill="#fff"/>
+            <g transform="matrix(1, 0, 0, 1, -1, 4)" filter="url(#Rectángulo_301909-2)">
+              <path id="Rectángulo_301909-5" data-name="Rectángulo 301909" d="M5.532,0h330.4a21.126,21.126,0,0,1,21.126,21.126V125.441a5.532,5.532,0,0,1-5.532,5.532H21.126A21.126,21.126,0,0,1,0,109.846V5.532A5.532,5.532,0,0,1,5.532,0Z" transform="translate(85.15 456.13)" fill="#fff"/>
+            </g>
+            <path id="Rectángulo_301909-6" data-name="Rectángulo 301909" d="M5.532,0h330.4a21.126,21.126,0,0,1,21.126,21.126V125.441a5.532,5.532,0,0,1-5.532,5.532H21.126A21.126,21.126,0,0,1,0,109.846V5.532A5.532,5.532,0,0,1,5.532,0Z" transform="translate(84.151 460.127)" fill="none" stroke="#f1b62b" stroke-width="4"/>
+          </g>
+          <g id="Grupo_898954" data-name="Grupo 898954" transform="translate(90.509 468.556)">
+            <text id="Gestión_del_riesgo" data-name="Gestión del riesgo" transform="translate(65.932 0)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="41.465" y="17">Gestión del riesgo</tspan></text>
+            <text id="Identificación_del_riesgo_Prevención_Reducción_Financiamiento_Gestión_de_desastres_ex_ante_Fortalecimiento_de_la_gobernanza" data-name="Identificación del riesgo, Prevención, Reducción, Financiamiento, Gestión de desastres (ex ante), Fortalecimiento de la gobernanza" transform="translate(0 30.459)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="2.306" y="17">Identificación del riesgo, Prevención, Reducción, </tspan><tspan x="4.381" y="41">Financiamiento, Gestión de desastres (ex ante), </tspan><tspan x="53.869" y="65">Fortalecimiento de la gobernanza</tspan></text>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
