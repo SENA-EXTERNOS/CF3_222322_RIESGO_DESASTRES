@@ -76,7 +76,7 @@
     .row.justify-content-around.aling-items-center.mt-5.mb-5
       .col-11
         .bloque-texto-g.color-secundario.p-3.p-sm-1.p-md-5    
-          .bloque-texto-g__img-tema3-1.bloque-img(
+          .bloque-texto-g__img.bloque-texto-g__img-tema3-1(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/tema3-img-14.svg')})`}"
           )
           .bloque-texto-g__texto.bloque-texto.p-4
